@@ -1,0 +1,89 @@
+:root {
+    --color1: #80BEAF;
+    --color2: #ABC5AD;
+    --color3: #d1dce2;
+    --color4: #f5b994;
+    --color5: #ee9c6c;
+    --backgroundColor: white;
+
+}
+
+body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/* Creates parallax effect for 'about me' page */
+.my_parallax {
+    /* background-color: var(--color2); */
+    height: 100%;
+    
+
+    background-attachment: fixed;
+    background-image: url("hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.floatingTextParagraph /* To be placed inside parallax, makes up paragraph */
+{
+    color: var(--backgroundColor);
+    font-size: 50px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: .5%;
+
+}
+
+.floatingTextHeading /* To be placed inside parallax, makes up heading */
+{
+    padding-top: 7%;
+    padding-left: 1%;
+    color: var(--backgroundColor);
+    font-size: 100px;
+    font-family: 'Lexend Deca', sans-serif;
+    display:inline-block;
+    font-weight: 600;
+
+}
+
+.makeItOrange
+{
+    color: var(--color5);
+}
+
+.myNavBar
+{
+    background-color: var(--color2);
+    overflow: hidden;
+    position:fixed;
+    width: 100%;
+}
+
+.myNavBar a {
+    float:left;
+    color:var(--backgroundColor);
+    text-align: center;
+    padding:14px 30px;
+    font-size: 30px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.myNavBar a:hover {
+    color: var(--color5);
+    background-color: var(--backgroundColor);
+    outline-color: var(--color2);
+    /* outline: solid 2px var(--color4); */
+    border: 2px solid var(--color5);
+}
+
+
+
+
