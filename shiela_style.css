@@ -1,5 +1,5 @@
 :root {
-    --color1: #80BEAF;
+    --color1: #d7e3d4;
     --color2: #ABC5AD;
     --color3: #d1dce2;
     --color4: #f5b994;
@@ -7,11 +7,21 @@
     --backgroundColor: white;
 
 }
-
+a {
+    color: #f5b994;
+}
 body, html {
     height: 100%;
     padding: 0;
     margin: 0;
+}
+
+footer {
+    background-color: var(--color2);
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: large;
+    color: var(--backgroundColor);
 }
 
 /* Creates parallax effect for 'about me' page */
@@ -90,6 +100,16 @@ body, html {
     text-align: center;
     font-family: 'Lexend Deca', sans-serif;
     padding-top: 20px;
+}
+
+.aboutMeParagraph {
+    color: var(--color2);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 30px;
+    text-align: justify;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 200px;
 }
 
 
