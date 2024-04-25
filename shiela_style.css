@@ -112,5 +112,10 @@ footer {
     padding-bottom: 200px;
 }
 
+.footerLink{
+    color: var(--backgroundColor);
+    text-decoration: none;
+}
+
 
 
