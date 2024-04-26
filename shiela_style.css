@@ -94,15 +94,16 @@ footer {
     border: 2px solid var(--color5);
 }
 
-.aboutMeHeading {
-    color: var(--color5);
+.myHeading {
+    color: var(--color5) !important;
     font-size: 70px;
     text-align: center;
     font-family: 'Lexend Deca', sans-serif;
     padding-top: 20px;
+    
 }
 
-.aboutMeParagraph {
+.myParagraph {
     color: var(--color2);
     font-family: 'Lexend Deca', sans-serif;
     font-size: 30px;
@@ -115,6 +116,26 @@ footer {
 .footerLink{
     color: var(--backgroundColor);
     text-decoration: none;
+}
+
+.projectContainer{
+    display: flex;
+    background-color: var(--backgroundColor);
+    color: var(--backgroundColor);
+    margin: 10px 200px 10px 200px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.projectItem {
+    background-color: var(--color2);
+    height: 200px;
+    padding: 20px;
+
+}
+
+.projectItem:hover {
+    background-color: var(--color4);
 }
 
 
