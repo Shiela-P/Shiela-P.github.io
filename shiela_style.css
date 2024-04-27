@@ -122,7 +122,7 @@ footer {
     display: flex;
     background-color: var(--backgroundColor);
     color: var(--backgroundColor);
-    margin: 10px 200px 10px 200px;
+    margin: 40px 200px 20px 200px;
     justify-content: space-around;
     align-items: center;
 }
@@ -136,6 +136,10 @@ footer {
 
 .projectItem:hover {
     background-color: var(--color4);
+}
+
+.resumeText {
+    text-align: center;
 }
 
 
