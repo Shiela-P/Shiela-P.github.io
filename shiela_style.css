@@ -99,7 +99,8 @@ footer {
     font-size: 70px;
     text-align: center;
     font-family: 'Lexend Deca', sans-serif;
-    padding-top: 20px;
+    padding-top: 65px;
+    /* margin: 65px; */
     
 }
 
@@ -140,6 +141,10 @@ footer {
 
 .resumeText {
     text-align: center;
+}
+
+.aboutMeSpacer {
+    padding-top: 5px;
 }
 
 
