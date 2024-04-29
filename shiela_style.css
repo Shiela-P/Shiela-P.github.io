@@ -52,7 +52,7 @@ footer {
 
 .floatingTextHeading /* To be placed inside parallax, makes up heading */
 {
-    padding-top: 7%;
+    padding-top: 8%;
     padding-left: 1%;
     color: var(--backgroundColor);
     font-size: 100px;
@@ -60,7 +60,7 @@ footer {
     display:inline-block;
     font-weight: 600;
 
-}
+} 
 
 .makeItOrange
 {
@@ -151,6 +151,21 @@ footer {
     width: 50%;
     border-radius: 20%;
 }
+
+.contactIcons{
+    display: inline;
+    width: 3%;
+}
+
+.contactContainer{
+    display: flex;
+
+}
+
+.contactItems{
+    background-color: var(--color2);
+}
+
 
 
 
