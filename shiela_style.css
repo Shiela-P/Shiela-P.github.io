@@ -99,8 +99,8 @@ footer {
     font-size: 70px;
     text-align: center;
     font-family: 'Lexend Deca', sans-serif;
-    padding-top: 65px;
-    /* margin: 65px; */
+    padding-top: 50px;
+    margin: 65px;
     
 }
 
@@ -111,7 +111,7 @@ footer {
     text-align: justify;
     padding-left: 200px;
     padding-right: 200px;
-    padding-bottom: 200px;
+    padding-bottom: 30px;
 }
 
 .footerLink{
@@ -145,6 +145,11 @@ footer {
 
 .aboutMeSpacer {
     padding-top: 5px;
+}
+
+.flowerImage{
+    width: 50%;
+    border-radius: 20%;
 }
 
 
