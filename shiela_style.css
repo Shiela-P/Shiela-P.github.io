@@ -119,6 +119,10 @@ footer {
     text-decoration: none;
 }
 
+.contactLink {
+    text-decoration: none;
+}
+
 .projectContainer{
     display: flex;
     background-color: var(--backgroundColor);
