@@ -125,16 +125,21 @@ footer {
 
 .projectContainer{
     display: flex;
+    flex-wrap: wrap;
     background-color: var(--backgroundColor);
     color: var(--backgroundColor);
-    margin: 40px 200px 20px 200px;
+    margin: 40px 200px 40px 200px;
     justify-content: space-around;
     align-items: center;
 }
 
 .projectItem {
     background-color: var(--color2);
+    margin: 20px 20px;
+    flex-wrap: wrap;
     height: 200px;
+    min-width: 220px;
+    max-width: 250;
     padding: 20px;
 
 }
@@ -165,20 +170,28 @@ footer {
 
 .contactContainer{
     display: flex;
-    justify-content: space-around; 
-    margin-left: 200px; 
-    margin-right: 200px;
+    flex-wrap: wrap;
+    background-color: var(--backgroundColor);
+    color: var(--backgroundColor);
+    margin: 40px 200px 40px 200px;
+    justify-content: space-around;
+    align-items: center;
 
 }
 
 .contactItem{
-    background-color: var(--color2);
     color: var(--backgroundColor);
     font-family: 'Lexend Deca', sans-serif;
     font-size: 20px;
-    padding: 10px 10px; 
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
+    background-color: var(--color2);
+    flex-wrap: wrap;
+    /* height: 200px; */
+    /* min-width: 220px; */
+    /* max-width: 250; */
+    margin: 20px;
+    padding: 10px;
 }
 
 .contactItem:hover {
