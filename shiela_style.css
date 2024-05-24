@@ -139,13 +139,16 @@ footer {
     flex-wrap: wrap;
     height: 200px;
     min-width: 220px;
-    max-width: 250;
-    padding: 20px;
+    max-width: 300px;
+    height: auto;
+    padding: 15px;
+    object-fit: cover;
 
 }
 
 .projectItem:hover {
     background-color: var(--color4);
+    filter: brightness(85%);
 }
 
 .resumeText {
@@ -187,9 +190,9 @@ footer {
     /* flex-direction: row; */
     background-color: var(--color2);
     flex-wrap: wrap;
-    /* height: 200px; */
-    /* min-width: 220px; */
-    /* max-width: 250; */
+    height: 200px; 
+    min-width: 220px;
+    max-width: 250;
     margin: 20px;
     padding: 10px;
 }
