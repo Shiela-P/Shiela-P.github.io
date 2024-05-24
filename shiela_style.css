@@ -135,7 +135,7 @@ footer {
 
 .projectItem {
     background-color: var(--color2);
-    margin: 20px 20px;
+    margin: 20px 20px 2px 20px;
     flex-wrap: wrap;
     height: 200px;
     min-width: 220px;
@@ -187,18 +187,36 @@ footer {
     font-family: 'Lexend Deca', sans-serif;
     font-size: 20px;
     display: flex;
-    /* flex-direction: row; */
+    flex-direction: row;
     background-color: var(--color2);
     flex-wrap: wrap;
-    height: 200px; 
-    min-width: 220px;
-    max-width: 250;
-    margin: 20px;
+    /* height: 200px;  */
+    /* min-width: 220px;
+    max-width: 250; */
+    /* margin: 20px; */
     padding: 10px;
 }
 
 .contactItem:hover {
     background-color: var(--color4);
+}
+
+.figTitle{
+    color: var(--color4);
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 30px;
+    flex-wrap: wrap;
+
+}
+
+.figDescription{
+    color: var(--color2);
+    text-align: center;
+    max-width: 280px;
+    padding-left: 40px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
 }
 
 
