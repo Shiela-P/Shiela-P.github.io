@@ -1,7 +1,7 @@
 import About from './About'
-import './App.css'
 import Hero from './Hero'
 import Navbar from './Navbar'
+import Projects from './Projects'
 
 
 function App() {
@@ -12,6 +12,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <Projects />
     </div>
     
   )
