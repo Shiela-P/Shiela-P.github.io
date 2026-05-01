@@ -1,9 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
 :root {
   --primary: #abc5ad;
+  --dk-green: #87b18d;
   --secondary: #ed9c6b;
   --background: #fff;
+  --brown: #8a623d;
+}
+
+h1{
+  font-weight: 700;
+}
+
+h2, h3, h4{
+  color: var(--secondary);
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+  padding: 1em 1em 0.5em 1em;
+}
+
+p{
+  color: var(--dk-green);
+  font-size: 2em;
+  margin: 0 4em 0.5em 4em;
+  font-weight: 350;
 }
 
 *{
@@ -19,6 +40,9 @@
   font-size: 2em;
   color: var(--background);
   margin: 0 auto;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
   /* height: 64px; */
 }
 
