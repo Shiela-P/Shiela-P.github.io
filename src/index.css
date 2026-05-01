@@ -4,10 +4,6 @@
   --primary: #abc5ad;
   --secondary: #ed9c6b;
   --background: #fff;
- 
-
-
-
 }
 
 *{
@@ -20,16 +16,16 @@
   align-items: center;
   background-color: var(--primary);
   padding-right: 1em;
-  font-size: 1.5em;
-  gap: 1em;
+  font-size: 2em;
   color: var(--background);
   margin: 0 auto;
-  height: 64px;
+  /* height: 64px; */
 }
 
 .navbar img{
   margin-right: auto;
   margin-left: 1em;
+  width: 1.5em;
 }
 
 .navbar a{
@@ -40,6 +36,33 @@
 .navbar a:hover{
   color: var(--secondary);
   background-color: var(--background);
-  border: solid 2px var(--secondary);
+  outline: solid 2px var(--secondary);
 }
+
+.hero{
+  position: relative;
+}
+
+.hero img{
+  max-width: 100vw;
+}
+
+.hero .title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5em;
+  color: var(--background);
+  padding: 0.5em;
+  border-radius: 20px;
+  filter: drop-shadow(5px 5px 2px #8a623d88 )
+}
+
+.hero .portfolio{
+  color: var(--secondary);
+  font-size: 3.1em;
+  
+}
+
 
