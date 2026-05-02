@@ -89,4 +89,20 @@ p{
   
 }
 
+.about-flex{
+  display: flex;
+  gap: 3em;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.about img{
+  width: 20em;
+  height: auto;
+  
+}
+.about p{
+  margin: 0 0 0.5em 0;
+  width: 20em;
+}
 
