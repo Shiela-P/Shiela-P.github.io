@@ -106,3 +106,36 @@ p{
   width: 20em;
 }
 
+.card
+{
+  background-color: var(--background);
+  width: 15em;
+  height: 24em;
+  margin: 2em auto;
+  border-radius: 1.25em;
+  overflow: hidden;
+  filter: drop-shadow(5px 5px 4px #00000050)
+
+}
+
+.card img{
+  width: 100%;
+}
+
+.card .card-image{
+  position: relative;
+}
+
+.card h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0.5em 0.5em 0.25em 0.5em;
+  color: var(--background);
+  font-size: 2.5;
+  background-color: #00000060;
+}
+
+
+
