@@ -2,11 +2,14 @@
     "projects": [
         {
             "title": "",
-            "description": "",
             "image": "",
-            "url": "",
-            "skills": [],
-            "id": "1"
+            "type": "",
+            "description": "",
+            "skill 1": "",
+            "skill 2": "",
+            "skill 3": "",
+            "skill 4": "",
+            "url": ""
         }
     ]
 }
