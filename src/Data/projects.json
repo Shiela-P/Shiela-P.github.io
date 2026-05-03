@@ -1,15 +1,28 @@
-{
-    "projects": [
-        {
-            "title": "",
-            "image": "",
-            "type": "",
-            "description": "",
-            "skill 1": "",
-            "skill 2": "",
-            "skill 3": "",
-            "skill 4": "",
-            "url": ""
-        }
-    ]
-}
+[
+    {
+        "title": "Test Title 1",
+        "image": "src/assets/hero.jpg",
+        "type": "Test Type",
+        "description": "Just some text for a test...",
+        "skill_1": "test skill",
+        "skill_2": "test skill",
+        "skill_3": "test skill",
+        "skill_4": "test skill",
+        "url": "https://www.apple.com",
+        "id": "1"
+    },
+
+    {
+        "title": "Test Title 2",
+        "image": "src/assets/hero.jpg",
+        "type": "Test Type",
+        "description": "Just some text for a test...",
+        "skill_1": "test skill",
+        "skill_2": "test skill",
+        "skill_3": "test skill",
+        "skill_4": "test skill",
+        "url": "https://www.apple.com",
+        "id": "2"
+    }
+]
+

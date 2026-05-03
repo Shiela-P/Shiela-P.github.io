@@ -1,18 +1,21 @@
-const Card = () => {
+const Card = ({url, image, title, type, description, skill_1, skill_2, skill_3, skill_4}) => {
     return ( 
         <div className="card">
-            <div className="card-image">
-                <img src="src/assets/hero.jpg" />
-                <h1>Title</h1>
-            </div>
-            <h2>Project Type</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. </p>   
+            <a href={url}>
+                <div className="card-image">
+                    <img src={image} />
+                    <h1>{title}</h1>
+                </div>
+                <h2>{type}</h2>
+                <p>{description} </p>   
             <div className="skills">
-                <p>skill</p>
-                <p>skill</p>
-                <p>skill</p>
-                <p>skill</p>
+                <p>{skill_1}</p>
+                <p>{skill_2}</p>
+                <p>{skill_3}</p>
+                <p>{skill_4}</p>
             </div>
+            </a>
+            
         </div>
      );
 }
