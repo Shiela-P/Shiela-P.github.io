@@ -23,6 +23,32 @@
         "skill_4": "test skill",
         "url": "https://www.apple.com",
         "id": "2"
+    },
+
+    {
+        "title": "Test Title 3",
+        "image": "src/assets/hero.jpg",
+        "type": "Test Type",
+        "description": "Just some text for a test...",
+        "skill_1": "test skill",
+        "skill_2": "test skill",
+        "skill_3": "test skill",
+        "skill_4": "test skill",
+        "url": "https://www.apple.com",
+        "id": "3"
+    },
+
+    {
+        "title": "Test Title 4",
+        "image": "src/assets/hero.jpg",
+        "type": "Test Type",
+        "description": "Just some text for a test...",
+        "skill_1": "test skill",
+        "skill_2": "test skill",
+        "skill_3": "test skill",
+        "skill_4": "test skill",
+        "url": "https://www.apple.com",
+        "id": "4"
     }
 ]
 

@@ -6,8 +6,7 @@ const Projects = () => {
     return ( 
         <div className="projects">
             <h2>Projects</h2>
-            {/* <Card url="https://www.apple.com" image="src/assets/hero.jpg" title="TEST" type="TEST" description="TEST" skill_1="TEST" skill_2="TEST" skill_3="TEST" skill_4="TEST" /> */}
-            <div>
+            <div className="cards">
                 {myProjects.map((item) => (
                     <Card 
                         title={item.title}

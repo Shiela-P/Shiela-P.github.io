@@ -12,6 +12,10 @@ h1{
   font-weight: 700;
 }
 
+h2{
+  margin-top: 1em;
+}
+
 h2, h3, h4{
   color: var(--secondary);
   font-size: 3em;
@@ -19,6 +23,7 @@ h2, h3, h4{
   text-align: center;
   padding: 1em 1em 0.5em 1em;
 }
+
 
 p{
   color: var(--dk-green);
@@ -37,7 +42,7 @@ p{
   align-items: center;
   background-color: var(--primary);
   padding-right: 1em;
-  font-size: 2em;
+  font-size: 1.5em;
   color: var(--background);
   margin: 0 auto;
   position: fixed;
@@ -61,6 +66,16 @@ p{
   color: var(--secondary);
   background-color: var(--background);
   outline: solid 2px var(--secondary);
+}
+
+.navbar .social:hover{
+    background-color: var(--primary);
+    outline: none;
+}
+
+.navbar .social{
+  margin-left: 0;
+  padding-left: 0;
 }
 
 .hero{
@@ -106,15 +121,22 @@ p{
   width: 20em;
 }
 
+.projects .cards{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3em 0;
+}
+
 .card
 {
   background-color: var(--background);
   width: 22em;
   height: 32em;
-  margin: 2em auto;
   border-radius: 1.25em;
   overflow: hidden;
-  filter: drop-shadow(5px 5px 4px #00000050)
+  filter: drop-shadow(5px 5px 4px #00000050);
+  margin: 0 4em;
+  justify-content: center;
 
 }
 
@@ -133,7 +155,7 @@ p{
   transform: translate(-50%, -50%);
   padding: 0.5em 0.5em 0.25em 0.5em;
   color: var(--background);
-  font-size: 2.5;
+  font-size: 1.5em;
   background-color: #00000060;
 }
 
@@ -173,5 +195,9 @@ p{
 .card a{
   text-decoration: none;
 }
+
+
+
+
 
 
