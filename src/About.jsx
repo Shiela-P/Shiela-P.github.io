@@ -1,7 +1,7 @@
 const About = () => {
     return ( 
         <div className="about">
-            <h2>Hello there!</h2>
+            <h2 id="about">Hello there!</h2>
             <div className="about-flex">
                 <img src="src/assets/about.png" />
                     <div>

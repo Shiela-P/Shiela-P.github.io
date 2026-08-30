@@ -1,54 +1,41 @@
 [
     {
-        "title": "Test Title 1",
-        "image": "src/assets/hero.jpg",
-        "type": "Test Type",
-        "description": "Just some text for a test...",
-        "skill_1": "test skill",
-        "skill_2": "test skill",
-        "skill_3": "test skill",
-        "skill_4": "test skill",
-        "url": "https://www.apple.com",
+        "title": "Pokedex App",
+        "image": "src/assets/pokedex.png",
+        "type": "Web App",
+        "description": "A pokedex app which fetches data from PokeAPI. Allows users to search for pokemon by name or number. Displays a sprite and description for each pokemon.",
+        "skill_1": "HTML",
+        "skill_2": "CSS",
+        "skill_3": "JavaScript",
+        "skill_4": "Restful APIs",
+        "url": "https://shiela-p.github.io/Pokedex/",
         "id": "1"
     },
 
     {
-        "title": "Test Title 2",
-        "image": "src/assets/hero.jpg",
-        "type": "Test Type",
-        "description": "Just some text for a test...",
-        "skill_1": "test skill",
-        "skill_2": "test skill",
-        "skill_3": "test skill",
-        "skill_4": "test skill",
-        "url": "https://www.apple.com",
+        "title": "To-Do App",
+        "image": "src/assets/todo.png",
+        "type": "Web App",
+        "description": "A simple Todo App using JavaScript. Users can add and remove tasks from the list.",
+        "skill_1": "HTML",
+        "skill_2": "CSS",
+        "skill_3": "JavaScript",
+        "skill_4": "Git",
+        "url": "https://shiela-p.github.io/ToDo/",
         "id": "2"
     },
 
     {
-        "title": "Test Title 3",
-        "image": "src/assets/hero.jpg",
-        "type": "Test Type",
-        "description": "Just some text for a test...",
-        "skill_1": "test skill",
-        "skill_2": "test skill",
-        "skill_3": "test skill",
-        "skill_4": "test skill",
-        "url": "https://www.apple.com",
+        "title": "Resort Website",
+        "image": "src/assets/fireside.png",
+        "type": "Responsive website",
+        "description": "Website using mobile-first and responsive design principles.",
+        "skill_1": "HTML",
+        "skill_2": "CSS",
+        "skill_3": "Responsive Design",
+        "skill_4": "Mobile-first",
+        "url": "https://shiela-p.github.io/fireside-resort-page/",
         "id": "3"
-    },
-
-    {
-        "title": "Test Title 4",
-        "image": "src/assets/hero.jpg",
-        "type": "Test Type",
-        "description": "Just some text for a test...",
-        "skill_1": "test skill",
-        "skill_2": "test skill",
-        "skill_3": "test skill",
-        "skill_4": "test skill",
-        "url": "https://www.apple.com",
-        "id": "4"
     }
 ]
 
