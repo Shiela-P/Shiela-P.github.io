@@ -2,7 +2,7 @@ const Navbar = () => {
     return (  
         <nav className='navbar'>
             <div>
-                <a id="logo" href="#home"><img src="public/favicon.ico"></img></a>
+                <a id="logo" href="#home"><img src="./favicon.ico"></img></a>
             </div>
             <div>
                 <div>
@@ -12,9 +12,9 @@ const Navbar = () => {
             </div>
 
             <div>
-                <a className="social" href="https://github.com/Shiela-P"><img src="src/assets/github.png"/></a>
+                <a className="social" href="https://github.com/Shiela-P"><img src="./assets/github.png"/></a>
 
-                <a href="https://www.linkedin.com/in/shielafpeters" className="social"><img src="src/assets/linkedin.png"/></a>
+                <a href="https://www.linkedin.com/in/shielafpeters" className="social"><img src="./assets/linkedin.png"/></a>
             </div>
             </div>
             

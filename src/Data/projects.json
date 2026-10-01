@@ -1,7 +1,7 @@
 [
     {
         "title": "Pokedex App",
-        "image": "src/assets/pokedex.png",
+        "image": "./assets/pokedex.png",
         "type": "Web App",
         "description": "A pokedex app which fetches data from PokeAPI. Allows users to search for pokemon by name or number. Displays a sprite and description for each pokemon.",
         "skill_1": "HTML",
@@ -14,7 +14,7 @@
 
     {
         "title": "To-Do App",
-        "image": "src/assets/todo.png",
+        "image": "./assets/todo.png",
         "type": "Web App",
         "description": "A simple Todo App using JavaScript. Users can add and remove tasks from the list.",
         "skill_1": "HTML",
@@ -27,7 +27,7 @@
 
     {
         "title": "Resort Website",
-        "image": "src/assets/fireside.png",
+        "image": "./assets/fireside.png",
         "type": "Responsive website",
         "description": "Website using mobile-first and responsive design principles.",
         "skill_1": "HTML",
