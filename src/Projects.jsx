@@ -1,6 +1,6 @@
 
 import Card from "./Card";
-import myProjects from "./data/Projects.json";
+import myProjects from "./data/projects.json";
 
 const Projects = () => {
     return ( 
